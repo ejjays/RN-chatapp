@@ -3,15 +3,13 @@ import { getAuth } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
 import { getStorage } from 'firebase/storage';
 
-// TODO: Replace with your Firebase project configuration
-// Get this from Firebase Console > Project Settings > General > Your apps
 const firebaseConfig = {
-  apiKey: "your-api-key-here",
-  authDomain: "your-project-id.firebaseapp.com",
-  projectId: "your-project-id",
-  storageBucket: "your-project-id.appspot.com",
-  messagingSenderId: "123456789",
-  appId: "1:123456789:web:abcdef123456"
+  apiKey: "AIzaSyAL2_jMfD4ImycSiZCo5FyOQFbX1IcJlsQ",
+  authDomain: "rn-video-call-2f903.firebaseapp.com",
+  projectId: "rn-video-call-2f903",
+  storageBucket: "rn-video-call-2f903.firebasestorage.app",
+  messagingSenderId: "994013507567",
+  appId: "1:994013507567:web:b499c47b08d533063e101a",
 };
 
 // Initialize Firebase
